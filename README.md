@@ -3,10 +3,10 @@ Particulars of the products in order to evaluate sales and profit of the store.
 
 
 
-Context
+                                                       Context
 This dataset contain various details of products sold at a store. These type of datasets are studied to find out the patterns in the selling structure and profit earned from them.
 
-Content
+                                                       Content
 OrderID : A specific ID given to each product OrderPriority : Priority of the product
 OrderQuantity: No of product items sold Sales ShipMode: Divided in two categories - Express Air and Regular Air
 Profit: Profit earned from the sale
