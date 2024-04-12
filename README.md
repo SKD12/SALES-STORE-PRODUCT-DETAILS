@@ -1,30 +1,54 @@
-# SALES-STORE-PRODUCT-DETAILS
-Particulars of the products in order to evaluate sales and profit of the store.
+# Sales Store Product Details Analysis
 
+This project focuses on analyzing the sales and profit data of a store, considering various product details and customer information. The goal is to uncover patterns and insights that can help optimize sales strategies and improve profitability.
 
+## Technologies Used
 
-                                                       Context
-This dataset contain various details of products sold at a store. These type of datasets are studied to find out the patterns in the selling structure and profit earned from them.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="20" height="20"> **Python**: The project is implemented in Python, a versatile programming language for data analysis and manipulation.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="20" height="20"> **Pandas**: This powerful Python library is used for data manipulation and analysis, enabling efficient data cleaning, preprocessing, and feature engineering.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" width="20" height="20"> **NumPy**: This library provides support for numerical operations and array manipulation, essential for working with large datasets.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Created_with_Matplotlib-logo.svg" width="20" height="20"> **Matplotlib** and <img src="https://seaborn.pydata.org/_static/logo.svg" width="20" height="20"> **Seaborn**: These libraries are utilized for data visualization, allowing the creation of informative plots and charts to explore and present the data.
 
-                                                       Content
-OrderID : A specific ID given to each product 
+## Project Structure
 
-OrderPriority : Priority of the product
+The project repository is organized as follows:
 
-OrderQuantity: No of product items sold Sales 
+```
+sales-store-product-details/
+├── data/
+│   ├── sales_data.csv
+├── notebooks/
+│   ├── data_exploration.ipynb
+│   ├── data_preprocessing.ipynb
+│   └── analysis.ipynb
+├── src/
+│   ├── data_utils.py
+│   └── visualization.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
-ShipMode: Divided in two categories - Express Air and Regular Air
+- `data/`: This directory contains the sales data in CSV format.
+- `notebooks/`: This directory includes Jupyter Notebooks used for data exploration, preprocessing, and analysis.
+- `src/`: This directory contains Python modules with functions for data processing, analysis, and visualization utilities.
+- `requirements.txt`: This file lists the Python packages and their versions required to run the project.
+- `README.md`: This file provides an overview of the project, including its purpose, technologies used, and instructions for running the code.
+- `.gitignore`: This file specifies patterns for files and directories that should be ignored by Git version control.
 
-Profit: Profit earned from the sale
+## Getting Started
 
-CustomerName: Name of the customer purchasing the products 
+To run this project locally, follow these steps:
 
-Region: Region to which the customer belongs 
+1. Clone the repository to your local machine.
+2. Install the required Python packages by running `pip install -r requirements.txt`.
+3. Navigate to the `notebooks/` directory and open the Jupyter Notebooks in the following order:
+   - `data_exploration.ipynb`: Explore and visualize the sales data.
+   - `data_preprocessing.ipynb`: Perform data preprocessing and feature engineering.
+   - `analysis.ipynb`: Conduct in-depth analysis and generate insights.
 
-CustomerSegment: Divided as per the size of business
+Note: Make sure to update the file paths in the Notebooks according to your local setup.
 
-ProductCategory: Divided according to the usage of the product 
+## Contributing
 
-ProductSub-Category: Divided according to the usage of the product
-
-ProductName: Name of the product ProductContainer: Type of container in which the product is shipped
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
