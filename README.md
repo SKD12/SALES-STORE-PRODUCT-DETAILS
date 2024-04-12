@@ -19,36 +19,12 @@ sales-store-product-details/
 │   ├── sales_data.csv
 ├── notebooks/
 │   ├── data_exploration.ipynb
-│   ├── data_preprocessing.ipynb
-│   └── analysis.ipynb
-├── src/
-│   ├── data_utils.py
-│   └── visualization.py
-├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
 - `data/`: This directory contains the sales data in CSV format.
 - `notebooks/`: This directory includes Jupyter Notebooks used for data exploration, preprocessing, and analysis.
-- `src/`: This directory contains Python modules with functions for data processing, analysis, and visualization utilities.
-- `requirements.txt`: This file lists the Python packages and their versions required to run the project.
 - `README.md`: This file provides an overview of the project, including its purpose, technologies used, and instructions for running the code.
-- `.gitignore`: This file specifies patterns for files and directories that should be ignored by Git version control.
 
-## Getting Started
 
-To run this project locally, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Install the required Python packages by running `pip install -r requirements.txt`.
-3. Navigate to the `notebooks/` directory and open the Jupyter Notebooks in the following order:
-   - `data_exploration.ipynb`: Explore and visualize the sales data.
-   - `data_preprocessing.ipynb`: Perform data preprocessing and feature engineering.
-   - `analysis.ipynb`: Conduct in-depth analysis and generate insights.
-
-Note: Make sure to update the file paths in the Notebooks according to your local setup.
-
-## Contributing
-
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
